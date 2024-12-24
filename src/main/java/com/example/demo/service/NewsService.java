@@ -9,7 +9,6 @@ public interface NewsService {
 
     boolean likeNews(Integer newsId, Integer userId, Map<String, Double> typeWeights);
 
-    // 收藏新闻
     boolean favoriteNews(Integer newsId, Integer userId, Map<String, Double> typeWeights);
 }
 

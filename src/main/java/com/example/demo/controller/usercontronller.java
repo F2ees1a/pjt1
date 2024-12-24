@@ -47,7 +47,7 @@ public class usercontronller {
         String username = loginRequest.getUsername();
         String password = loginRequest.getPassword();
 
-
+// 点赞新闻
         User loguser = Userservice.findbyName(username);
 
 
